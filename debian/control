@@ -1,0 +1,12 @@
+Source: ros-humble-franka-semantic-components
+Section: misc
+Priority: optional
+Maintainer: Franka Robotics GmbH <support@franka.de>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-clang-format <!nocheck>, ros-humble-ament-cmake-clang-tidy <!nocheck>, ros-humble-ament-cmake-copyright <!nocheck>, ros-humble-ament-cmake-cppcheck <!nocheck>, ros-humble-ament-cmake-flake8 <!nocheck>, ros-humble-ament-cmake-gmock <!nocheck>, ros-humble-ament-cmake-lint-cmake <!nocheck>, ros-humble-ament-cmake-pep257 <!nocheck>, ros-humble-ament-cmake-xmllint <!nocheck>, ros-humble-franka-hardware, ros-humble-franka-msgs, ros-humble-geometry-msgs, ros-humble-hardware-interface, ros-humble-rclcpp, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-franka-semantic-components
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-franka-hardware, ros-humble-franka-msgs, ros-humble-geometry-msgs, ros-humble-hardware-interface, ros-humble-rclcpp, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Description: franka_semantic_components provides semantic components for using Franka Robotics research robots with ros2_control
