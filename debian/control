@@ -1,0 +1,12 @@
+Source: ros-humble-franka-ros2
+Section: misc
+Priority: optional
+Maintainer: Franka Robotics GmbH <support@franka.de>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-franka-bringup, ros-humble-franka-description, ros-humble-franka-example-controllers, ros-humble-franka-fr3-moveit-config, ros-humble-franka-gazebo-bringup, ros-humble-franka-gripper, ros-humble-franka-hardware, ros-humble-franka-ign-ros2-control, ros-humble-franka-msgs, ros-humble-libfranka, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-franka-ros2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-franka-bringup, ros-humble-franka-description, ros-humble-franka-example-controllers, ros-humble-franka-fr3-moveit-config, ros-humble-franka-gazebo-bringup, ros-humble-franka-gripper, ros-humble-franka-hardware, ros-humble-franka-ign-ros2-control, ros-humble-franka-msgs, ros-humble-libfranka, ros-humble-ros-workspace
+Description: Meta package of franka_ros2
