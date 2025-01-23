@@ -1,0 +1,12 @@
+Source: ros-humble-franka-gazebo-bringup
+Section: misc
+Priority: optional
+Maintainer: Franka Robotics GmbH <support@franka.de>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-franka-description, ros-humble-franka-ign-ros2-control, ros-humble-joint-state-publisher-gui, ros-humble-ros-gz, ros-humble-sdformat-urdf, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-franka-gazebo-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-franka-description, ros-humble-franka-ign-ros2-control, ros-humble-joint-state-publisher-gui, ros-humble-ros-gz, ros-humble-ros2controlcli, ros-humble-sdformat-urdf, ros-humble-ros-workspace
+Description: Contains launch files for the franka_gazebo project
