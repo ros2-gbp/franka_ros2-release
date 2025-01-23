@@ -1,0 +1,12 @@
+Source: ros-humble-franka-example-controllers
+Section: misc
+Priority: optional
+Maintainer: Franka Robotics GmbH <support@franka.de>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake <!nocheck>, ros-humble-ament-cmake-clang-format <!nocheck>, ros-humble-ament-cmake-clang-tidy <!nocheck>, ros-humble-ament-cmake-copyright <!nocheck>, ros-humble-ament-cmake-cppcheck <!nocheck>, ros-humble-ament-cmake-flake8 <!nocheck>, ros-humble-ament-cmake-gmock <!nocheck>, ros-humble-ament-cmake-lint-cmake <!nocheck>, ros-humble-ament-cmake-pep257 <!nocheck>, ros-humble-ament-cmake-xmllint <!nocheck>, ros-humble-controller-interface, ros-humble-controller-manager <!nocheck>, ros-humble-franka-msgs, ros-humble-franka-semantic-components, ros-humble-hardware-interface-testing <!nocheck>, ros-humble-pinocchio, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-ros2-control-test-assets <!nocheck>, ros-humble-sensor-msgs, ros-humble-std-srvs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-franka-example-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-controller-interface, ros-humble-franka-msgs, ros-humble-franka-semantic-components, ros-humble-pinocchio, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-sensor-msgs, ros-humble-std-srvs, ros-humble-ros-workspace
+Description: franka_example_controllers provides example code for controllingFranka Robotics research robots with ros2_control
